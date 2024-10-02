@@ -16,6 +16,12 @@ function App() {
     )
   }
 
+  //find
+  const checkNumber=(num)=>{
+    return (
+      num > 5
+    )
+  }
 
   return (
     <>
@@ -31,7 +37,7 @@ function App() {
 
     <hr/>
 
-    
+    {numbers.find(checkNumber)}
     </>
   )
 }
