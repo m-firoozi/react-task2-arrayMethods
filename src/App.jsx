@@ -16,7 +16,7 @@ function App() {
     )
   }
 
-  //find
+  //find and findIndex
   const checkNumber=(num)=>{
     return (
       num > 5
@@ -38,6 +38,10 @@ function App() {
     <hr/>
 
     {numbers.find(checkNumber)}
+
+    <hr/>
+
+    {numbers.findIndex(checkNumber)}
     </>
   )
 }
